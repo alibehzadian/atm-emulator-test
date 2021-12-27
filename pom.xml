@@ -12,9 +12,9 @@
 
     <modules>
         <module>atm-emulator-commons</module>
-        <module>atm-service</module>
+        <module>service-discovery</module>        
+		<module>atm-service</module>
         <module>bank-service</module>
-        <module>service-discovery</module>
     </modules>
 
 </project>

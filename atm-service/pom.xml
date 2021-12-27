@@ -16,9 +16,6 @@
     </properties>
 
     <modules>
-        <module>core</module>
-		<module>infrastructure/commons</module>
-		<module>infrastructure/persistence</module>
 		<module>application</module>
 		<module>api</module>
     </modules>

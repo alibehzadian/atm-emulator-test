@@ -2046,3 +2046,315 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:106)
 	at java.base/java.lang.Thread.run(Thread.java:829)
 2021-12-27 15:32:45,361 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Completed shut down of DiscoveryClient
+2021-12-27 19:29:45,477 INFO org.springframework.boot.StartupInfoLogger [main] Starting BankServiceApiApplicationTests using Java 11.0.12 on DESKTOP-5VNLL70 with PID 2352 (started by alibe in C:\Work\Workspace\Mehan\interview-tests\atm-emulator-test\project\bank-service\api)
+2021-12-27 19:29:45,479 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-27 19:29:45,480 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: dev
+2021-12-27 19:29:45,484 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2021-12-27 19:29:47,350 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-27 19:29:47,647 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 281 ms. Found 2 JPA repository interfaces.
+2021-12-27 19:29:48,088 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=fb39b645-fddc-326d-9b0a-bab8564e3446
+2021-12-27 19:29:48,518 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-27 19:29:48,523 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-27 19:29:48,530 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-27 19:29:48,696 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-12-27 19:29:49,455 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-12-27 19:29:49,719 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-27 19:29:49,850 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.3.Final
+2021-12-27 19:29:50,161 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-27 19:29:50,472 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-12-27 19:29:51,580 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-27 19:29:51,599 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-27 19:29:53,164 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-27 19:29:55,030 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-12-27 19:29:55,215 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses RestTemplate.
+2021-12-27 19:29:56,640 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-12-27 19:29:57,256 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-12-27 19:29:57,322 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2021-12-27 19:29:57,450 INFO com.netflix.discovery.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2021-12-27 19:29:57,463 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+2021-12-27 19:29:57,521 INFO com.netflix.discovery.DiscoveryClient [main] Disable delta property : false
+2021-12-27 19:29:57,521 INFO com.netflix.discovery.DiscoveryClient [main] Single vip registry refresh property : null
+2021-12-27 19:29:57,522 INFO com.netflix.discovery.DiscoveryClient [main] Force full registry fetch : false
+2021-12-27 19:29:57,523 INFO com.netflix.discovery.DiscoveryClient [main] Application is null : false
+2021-12-27 19:29:57,523 INFO com.netflix.discovery.DiscoveryClient [main] Registered Applications size is zero : true
+2021-12-27 19:29:57,523 INFO com.netflix.discovery.DiscoveryClient [main] Application version is -1: true
+2021-12-27 19:29:57,524 INFO com.netflix.discovery.DiscoveryClient [main] Getting all instance registry info from the eureka server
+2021-12-27 19:29:57,976 INFO com.netflix.discovery.DiscoveryClient [main] The response status is 200
+2021-12-27 19:29:57,980 INFO com.netflix.discovery.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 15
+2021-12-27 19:29:57,988 INFO com.netflix.discovery.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-12-27 19:29:57,999 INFO com.netflix.discovery.DiscoveryClient [main] Discovery Client initialized at timestamp 1640620797997 with initial instances count: 3
+2021-12-27 19:29:58,014 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [main] Registering application BANK-SERVICE-API with eureka with status UP
+2021-12-27 19:29:58,014 INFO com.netflix.discovery.DiscoveryClient$3 [DiscoveryClient-InstanceInfoReplicator-0] Saw local status change event StatusChangeEvent [timestamp=1640620798014, current=UP, previous=STARTING]
+2021-12-27 19:29:58,015 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_BANK-SERVICE-API/host.docker.internal:bank-service-api:9090: registering service...
+2021-12-27 19:29:58,016 WARN com.netflix.discovery.InstanceInfoReplicator [main] Ignoring onDemand update due to rate limiter
+2021-12-27 19:29:58,062 INFO org.springframework.boot.StartupInfoLogger [main] Started BankServiceApiApplicationTests in 13.456 seconds (JVM running for 15.161)
+2021-12-27 19:29:58,095 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_BANK-SERVICE-API/host.docker.internal:bank-service-api:9090 - registration status: 204
+2021-12-27 19:29:58,309 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [SpringApplicationShutdownHook] Unregistering application BANK-SERVICE-API with eureka with status DOWN
+2021-12-27 19:29:58,309 INFO com.netflix.discovery.DiscoveryClient$3 [SpringApplicationShutdownHook] Saw local status change event StatusChangeEvent [timestamp=1640620798309, current=DOWN, previous=UP]
+2021-12-27 19:29:58,310 WARN com.netflix.discovery.InstanceInfoReplicator [SpringApplicationShutdownHook] Ignoring onDemand update due to rate limiter
+2021-12-27 19:29:58,351 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-27 19:29:58,356 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-12-27 19:29:58,375 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2021-12-27 19:29:58,376 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Shutting down DiscoveryClient ...
+2021-12-27 19:30:01,391 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Unregistering ...
+2021-12-27 19:30:01,412 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] DiscoveryClient_BANK-SERVICE-API/host.docker.internal:bank-service-api:9090 - deregister  status: 200
+2021-12-27 19:30:01,424 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Completed shut down of DiscoveryClient
+2021-12-27 19:37:18,899 INFO org.springframework.boot.StartupInfoLogger [main] Starting BankServiceApiApplicationTests using Java 11.0.12 on DESKTOP-5VNLL70 with PID 2724 (started by alibe in C:\Work\Workspace\Mehan\interview-tests\atm-emulator-test\project\bank-service\api)
+2021-12-27 19:37:18,902 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-27 19:37:18,902 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: dev
+2021-12-27 19:37:18,913 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2021-12-27 19:37:20,798 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-27 19:37:21,088 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 275 ms. Found 2 JPA repository interfaces.
+2021-12-27 19:37:21,477 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=fb39b645-fddc-326d-9b0a-bab8564e3446
+2021-12-27 19:37:21,927 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-27 19:37:21,933 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-27 19:37:21,940 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-27 19:37:22,093 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-12-27 19:37:22,766 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-12-27 19:37:22,993 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-27 19:37:23,114 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.3.Final
+2021-12-27 19:37:23,443 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-27 19:37:23,675 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-12-27 19:37:24,721 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-27 19:37:24,736 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-27 19:37:26,305 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-27 19:37:28,107 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-12-27 19:37:28,290 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses RestTemplate.
+2021-12-27 19:37:29,753 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-12-27 19:37:30,381 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-12-27 19:37:30,442 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2021-12-27 19:37:30,573 INFO com.netflix.discovery.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2021-12-27 19:37:30,583 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+2021-12-27 19:37:30,634 INFO com.netflix.discovery.DiscoveryClient [main] Disable delta property : false
+2021-12-27 19:37:30,635 INFO com.netflix.discovery.DiscoveryClient [main] Single vip registry refresh property : null
+2021-12-27 19:37:30,636 INFO com.netflix.discovery.DiscoveryClient [main] Force full registry fetch : false
+2021-12-27 19:37:30,636 INFO com.netflix.discovery.DiscoveryClient [main] Application is null : false
+2021-12-27 19:37:30,636 INFO com.netflix.discovery.DiscoveryClient [main] Registered Applications size is zero : true
+2021-12-27 19:37:30,637 INFO com.netflix.discovery.DiscoveryClient [main] Application version is -1: true
+2021-12-27 19:37:30,637 INFO com.netflix.discovery.DiscoveryClient [main] Getting all instance registry info from the eureka server
+2021-12-27 19:37:31,048 INFO com.netflix.discovery.DiscoveryClient [main] The response status is 200
+2021-12-27 19:37:31,052 INFO com.netflix.discovery.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 15
+2021-12-27 19:37:31,058 INFO com.netflix.discovery.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-12-27 19:37:31,069 INFO com.netflix.discovery.DiscoveryClient [main] Discovery Client initialized at timestamp 1640621251068 with initial instances count: 2
+2021-12-27 19:37:31,084 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [main] Registering application BANK-SERVICE-API with eureka with status UP
+2021-12-27 19:37:31,087 INFO com.netflix.discovery.DiscoveryClient$3 [DiscoveryClient-InstanceInfoReplicator-0] Saw local status change event StatusChangeEvent [timestamp=1640621251087, current=UP, previous=STARTING]
+2021-12-27 19:37:31,088 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_BANK-SERVICE-API/host.docker.internal:bank-service-api:9090: registering service...
+2021-12-27 19:37:31,089 WARN com.netflix.discovery.InstanceInfoReplicator [main] Ignoring onDemand update due to rate limiter
+2021-12-27 19:37:31,126 INFO org.springframework.boot.StartupInfoLogger [main] Started BankServiceApiApplicationTests in 13.058 seconds (JVM running for 14.772)
+2021-12-27 19:37:31,168 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_BANK-SERVICE-API/host.docker.internal:bank-service-api:9090 - registration status: 204
+2021-12-27 19:37:31,382 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [SpringApplicationShutdownHook] Unregistering application BANK-SERVICE-API with eureka with status DOWN
+2021-12-27 19:37:31,383 INFO com.netflix.discovery.DiscoveryClient$3 [SpringApplicationShutdownHook] Saw local status change event StatusChangeEvent [timestamp=1640621251383, current=DOWN, previous=UP]
+2021-12-27 19:37:31,383 WARN com.netflix.discovery.InstanceInfoReplicator [SpringApplicationShutdownHook] Ignoring onDemand update due to rate limiter
+2021-12-27 19:37:31,425 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-27 19:37:31,428 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-12-27 19:37:31,446 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2021-12-27 19:37:31,447 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Shutting down DiscoveryClient ...
+2021-12-27 19:37:34,459 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Unregistering ...
+2021-12-27 19:37:34,480 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] DiscoveryClient_BANK-SERVICE-API/host.docker.internal:bank-service-api:9090 - deregister  status: 200
+2021-12-27 19:37:34,487 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Completed shut down of DiscoveryClient
+2021-12-27 20:00:52,819 INFO org.springframework.boot.StartupInfoLogger [main] Starting BankServiceApiApplicationTests using Java 11.0.12 on DESKTOP-5VNLL70 with PID 14980 (started by alibe in C:\Work\Workspace\Mehan\interview-tests\atm-emulator-test\project\bank-service\api)
+2021-12-27 20:00:52,823 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-27 20:00:52,823 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: dev
+2021-12-27 20:00:52,839 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2021-12-27 20:00:54,753 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-27 20:00:55,057 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 287 ms. Found 2 JPA repository interfaces.
+2021-12-27 20:00:55,505 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=fb39b645-fddc-326d-9b0a-bab8564e3446
+2021-12-27 20:00:55,958 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-27 20:00:55,963 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-27 20:00:55,970 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-27 20:00:56,142 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-12-27 20:00:56,833 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-12-27 20:00:57,119 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-27 20:00:57,250 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.3.Final
+2021-12-27 20:00:57,575 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-27 20:00:57,822 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-12-27 20:00:58,873 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-27 20:00:58,887 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-27 20:01:00,418 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-27 20:01:02,146 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-12-27 20:01:02,350 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses RestTemplate.
+2021-12-27 20:01:03,751 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-12-27 20:01:04,437 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-12-27 20:01:04,502 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2021-12-27 20:01:04,638 INFO com.netflix.discovery.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2021-12-27 20:01:04,649 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+2021-12-27 20:01:04,697 INFO com.netflix.discovery.DiscoveryClient [main] Disable delta property : false
+2021-12-27 20:01:04,698 INFO com.netflix.discovery.DiscoveryClient [main] Single vip registry refresh property : null
+2021-12-27 20:01:04,699 INFO com.netflix.discovery.DiscoveryClient [main] Force full registry fetch : false
+2021-12-27 20:01:04,699 INFO com.netflix.discovery.DiscoveryClient [main] Application is null : false
+2021-12-27 20:01:04,699 INFO com.netflix.discovery.DiscoveryClient [main] Registered Applications size is zero : true
+2021-12-27 20:01:04,700 INFO com.netflix.discovery.DiscoveryClient [main] Application version is -1: true
+2021-12-27 20:01:04,700 INFO com.netflix.discovery.DiscoveryClient [main] Getting all instance registry info from the eureka server
+2021-12-27 20:01:05,128 INFO com.netflix.discovery.DiscoveryClient [main] The response status is 200
+2021-12-27 20:01:05,135 INFO com.netflix.discovery.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 15
+2021-12-27 20:01:05,143 INFO com.netflix.discovery.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-12-27 20:01:05,154 INFO com.netflix.discovery.DiscoveryClient [main] Discovery Client initialized at timestamp 1640622665153 with initial instances count: 2
+2021-12-27 20:01:05,165 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [main] Registering application BANK-SERVICE-API with eureka with status UP
+2021-12-27 20:01:05,167 INFO com.netflix.discovery.DiscoveryClient$3 [DiscoveryClient-InstanceInfoReplicator-0] Saw local status change event StatusChangeEvent [timestamp=1640622665167, current=UP, previous=STARTING]
+2021-12-27 20:01:05,167 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_BANK-SERVICE-API/host.docker.internal:bank-service-api:9090: registering service...
+2021-12-27 20:01:05,169 WARN com.netflix.discovery.InstanceInfoReplicator [main] Ignoring onDemand update due to rate limiter
+2021-12-27 20:01:05,202 INFO org.springframework.boot.StartupInfoLogger [main] Started BankServiceApiApplicationTests in 13.225 seconds (JVM running for 15.002)
+2021-12-27 20:01:05,247 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_BANK-SERVICE-API/host.docker.internal:bank-service-api:9090 - registration status: 204
+2021-12-27 20:01:05,452 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [SpringApplicationShutdownHook] Unregistering application BANK-SERVICE-API with eureka with status DOWN
+2021-12-27 20:01:05,452 INFO com.netflix.discovery.DiscoveryClient$3 [SpringApplicationShutdownHook] Saw local status change event StatusChangeEvent [timestamp=1640622665452, current=DOWN, previous=UP]
+2021-12-27 20:01:05,452 WARN com.netflix.discovery.InstanceInfoReplicator [SpringApplicationShutdownHook] Ignoring onDemand update due to rate limiter
+2021-12-27 20:01:05,493 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-27 20:01:05,498 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-12-27 20:01:05,515 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2021-12-27 20:01:05,516 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Shutting down DiscoveryClient ...
+2021-12-27 20:01:08,525 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Unregistering ...
+2021-12-27 20:01:08,547 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] DiscoveryClient_BANK-SERVICE-API/host.docker.internal:bank-service-api:9090 - deregister  status: 200
+2021-12-27 20:01:08,561 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Completed shut down of DiscoveryClient
+2021-12-27 20:02:25,198 INFO org.springframework.boot.StartupInfoLogger [main] Starting BankServiceApiApplicationTests using Java 11.0.12 on DESKTOP-5VNLL70 with PID 15912 (started by alibe in C:\Work\Workspace\Mehan\interview-tests\atm-emulator-test\project\bank-service\api)
+2021-12-27 20:02:25,201 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-27 20:02:25,202 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: dev
+2021-12-27 20:02:25,213 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2021-12-27 20:02:27,077 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-27 20:02:27,383 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 289 ms. Found 2 JPA repository interfaces.
+2021-12-27 20:02:27,807 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=fb39b645-fddc-326d-9b0a-bab8564e3446
+2021-12-27 20:02:28,304 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-27 20:02:28,310 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-27 20:02:28,317 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-27 20:02:28,493 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-12-27 20:02:29,192 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-12-27 20:02:29,412 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-27 20:02:29,535 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.3.Final
+2021-12-27 20:02:29,819 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-27 20:02:30,063 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-12-27 20:02:31,102 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-27 20:02:31,116 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-27 20:02:32,711 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-27 20:02:34,515 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-12-27 20:02:34,680 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses RestTemplate.
+2021-12-27 20:02:36,056 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-12-27 20:02:36,806 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-12-27 20:02:36,898 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2021-12-27 20:02:37,065 INFO com.netflix.discovery.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2021-12-27 20:02:37,079 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+2021-12-27 20:02:37,131 INFO com.netflix.discovery.DiscoveryClient [main] Disable delta property : false
+2021-12-27 20:02:37,131 INFO com.netflix.discovery.DiscoveryClient [main] Single vip registry refresh property : null
+2021-12-27 20:02:37,132 INFO com.netflix.discovery.DiscoveryClient [main] Force full registry fetch : false
+2021-12-27 20:02:37,132 INFO com.netflix.discovery.DiscoveryClient [main] Application is null : false
+2021-12-27 20:02:37,133 INFO com.netflix.discovery.DiscoveryClient [main] Registered Applications size is zero : true
+2021-12-27 20:02:37,133 INFO com.netflix.discovery.DiscoveryClient [main] Application version is -1: true
+2021-12-27 20:02:37,134 INFO com.netflix.discovery.DiscoveryClient [main] Getting all instance registry info from the eureka server
+2021-12-27 20:02:37,672 INFO com.netflix.discovery.DiscoveryClient [main] The response status is 200
+2021-12-27 20:02:37,676 INFO com.netflix.discovery.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 15
+2021-12-27 20:02:37,683 INFO com.netflix.discovery.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-12-27 20:02:37,692 INFO com.netflix.discovery.DiscoveryClient [main] Discovery Client initialized at timestamp 1640622757691 with initial instances count: 2
+2021-12-27 20:02:37,703 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [main] Registering application BANK-SERVICE-API with eureka with status UP
+2021-12-27 20:02:37,705 INFO com.netflix.discovery.DiscoveryClient$3 [main] Saw local status change event StatusChangeEvent [timestamp=1640622757705, current=UP, previous=STARTING]
+2021-12-27 20:02:37,706 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_BANK-SERVICE-API/host.docker.internal:bank-service-api:9090: registering service...
+2021-12-27 20:02:37,707 WARN com.netflix.discovery.InstanceInfoReplicator [main] Ignoring onDemand update due to rate limiter
+2021-12-27 20:02:37,749 INFO org.springframework.boot.StartupInfoLogger [main] Started BankServiceApiApplicationTests in 13.386 seconds (JVM running for 14.931)
+2021-12-27 20:02:37,792 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_BANK-SERVICE-API/host.docker.internal:bank-service-api:9090 - registration status: 204
+2021-12-27 20:02:38,001 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [SpringApplicationShutdownHook] Unregistering application BANK-SERVICE-API with eureka with status DOWN
+2021-12-27 20:02:38,002 INFO com.netflix.discovery.DiscoveryClient$3 [SpringApplicationShutdownHook] Saw local status change event StatusChangeEvent [timestamp=1640622758002, current=DOWN, previous=UP]
+2021-12-27 20:02:38,002 WARN com.netflix.discovery.InstanceInfoReplicator [SpringApplicationShutdownHook] Ignoring onDemand update due to rate limiter
+2021-12-27 20:02:38,057 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-27 20:02:38,061 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-12-27 20:02:38,086 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2021-12-27 20:02:38,097 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Shutting down DiscoveryClient ...
+2021-12-27 20:02:41,102 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Unregistering ...
+2021-12-27 20:02:41,119 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] DiscoveryClient_BANK-SERVICE-API/host.docker.internal:bank-service-api:9090 - deregister  status: 200
+2021-12-27 20:02:41,129 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Completed shut down of DiscoveryClient
+2021-12-27 20:12:03,219 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2021-12-27 20:12:03,248 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BankServiceApiApplication using Java 11.0.12 on DESKTOP-5VNLL70 with PID 17896 (C:\Work\Workspace\Mehan\interview-tests\atm-emulator-test\project\bank-service\api\target\classes started by alibe in c:\Work\Workspace\Mehan\interview-tests\atm-emulator-test\project\bank-service\api)
+2021-12-27 20:12:03,250 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-27 20:12:03,250 INFO org.springframework.boot.SpringApplication [restartedMain] The following profiles are active: dev
+2021-12-27 20:12:03,368 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-27 20:12:03,368 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-27 20:12:06,743 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-27 20:12:07,153 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 389 ms. Found 2 JPA repository interfaces.
+2021-12-27 20:12:07,716 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=12c6ab25-6c23-3284-919a-51924bd1bd88
+2021-12-27 20:12:08,318 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-27 20:12:08,321 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-27 20:12:08,326 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-27 20:12:09,310 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9090 (http)
+2021-12-27 20:12:09,335 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-9090"]
+2021-12-27 20:12:09,336 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-12-27 20:12:09,336 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-27 20:12:09,613 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-12-27 20:12:09,614 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 6244 ms
+2021-12-27 20:12:10,178 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2021-12-27 20:12:10,990 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2021-12-27 20:12:11,328 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-27 20:12:11,489 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.3.Final
+2021-12-27 20:12:11,977 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-27 20:12:12,309 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-12-27 20:12:14,231 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-27 20:12:14,249 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-27 20:12:15,851 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-27 20:12:17,906 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [restartedMain] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-12-27 20:12:18,087 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses RestTemplate.
+2021-12-27 20:12:20,297 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-12-27 20:12:21,234 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2021-12-27 20:12:21,399 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-12-27 20:12:21,730 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2021-12-27 20:12:21,899 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2021-12-27 20:12:21,922 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [restartedMain] Resolving eureka endpoints via configuration
+2021-12-27 20:12:22,018 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Disable delta property : false
+2021-12-27 20:12:22,019 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Single vip registry refresh property : null
+2021-12-27 20:12:22,019 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Force full registry fetch : false
+2021-12-27 20:12:22,019 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application is null : false
+2021-12-27 20:12:22,019 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Registered Applications size is zero : true
+2021-12-27 20:12:22,020 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application version is -1: true
+2021-12-27 20:12:22,021 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Getting all instance registry info from the eureka server
+2021-12-27 20:12:23,154 INFO com.netflix.discovery.DiscoveryClient [restartedMain] The response status is 200
+2021-12-27 20:12:23,164 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Starting heartbeat executor: renew interval is: 15
+2021-12-27 20:12:23,174 INFO com.netflix.discovery.InstanceInfoReplicator [restartedMain] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-12-27 20:12:23,188 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1640623343186 with initial instances count: 0
+2021-12-27 20:12:23,195 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application BANK-SERVICE-API with eureka with status UP
+2021-12-27 20:12:23,200 INFO com.netflix.discovery.DiscoveryClient$3 [restartedMain] Saw local status change event StatusChangeEvent [timestamp=1640623343199, current=UP, previous=STARTING]
+2021-12-27 20:12:23,202 WARN com.netflix.discovery.InstanceInfoReplicator [restartedMain] Ignoring onDemand update due to rate limiter
+2021-12-27 20:12:23,204 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_BANK-SERVICE-API/host.docker.internal:bank-service-api:9090: registering service...
+2021-12-27 20:12:23,208 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-9090"]
+2021-12-27 20:12:23,276 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 9090 (http) with context path ''
+2021-12-27 20:12:23,280 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 9090
+2021-12-27 20:12:23,586 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_BANK-SERVICE-API/host.docker.internal:bank-service-api:9090 - registration status: 204
+2021-12-27 20:12:24,208 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BankServiceApiApplication in 22.666 seconds (JVM running for 24.898)
+2021-12-27 20:12:53,177 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Disable delta property : false
+2021-12-27 20:12:53,177 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Single vip registry refresh property : null
+2021-12-27 20:12:53,177 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Force full registry fetch : false
+2021-12-27 20:12:53,177 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application is null : false
+2021-12-27 20:12:53,178 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Registered Applications size is zero : true
+2021-12-27 20:12:53,178 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application version is -1: false
+2021-12-27 20:12:53,178 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Getting all instance registry info from the eureka server
+2021-12-27 20:12:53,208 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] The response status is 200
+2021-12-27 20:14:21,553 INFO org.apache.juli.logging.DirectJDKLog [http-nio-9090-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-27 20:14:21,554 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9090-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-12-27 20:14:21,556 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9090-exec-2] Completed initialization in 2 ms
+2021-12-27 20:14:36,888 INFO org.apache.juli.logging.DirectJDKLog [http-nio-9090-exec-4] Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x000xf70x010x000x000xf30x030x030xaf(0x970xd7-0xf8e0xe20x160x070xa20xdbY[k0xc3"0x91B0x0e0xbc0xcd]u0x870x9fV0x8f0xb50xff0x8c0xc0 ]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:419)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:269)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-12-27 20:16:24,744 DEBUG info.behzadian.web.rest.CardController [http-nio-9090-exec-6] CardController.verifyCard
+2021-12-27 20:16:24,745 DEBUG info.behzadian.web.rest.CardController [http-nio-9090-exec-6] Command: CardVerificationCommand(cardNumber=123456)
+2021-12-27 20:16:24,777 DEBUG info.behzadian.adapter.inbound.rest.card.VerifyCardServiceImpl [http-nio-9090-exec-6] VerifyCardService.verifyCard
+2021-12-27 20:16:24,778 DEBUG info.behzadian.adapter.inbound.rest.card.VerifyCardServiceImpl [http-nio-9090-exec-6] Command: CardVerificationCommand(cardNumber=123456)
+2021-12-27 20:16:24,778 DEBUG info.behzadian.adapter.inbound.rest.card.VerifyCardServiceImpl [http-nio-9090-exec-6] check if card exists
+2021-12-27 20:16:24,905 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-9090-exec-6] Resolved [org.springframework.dao.IncorrectResultSizeDataAccessException: query did not return a unique result: 20; nested exception is javax.persistence.NonUniqueResultException: query did not return a unique result: 20]
+2021-12-27 20:17:22,032 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-12-27 20:18:25,631 DEBUG info.behzadian.web.rest.CardController [http-nio-9090-exec-7] CardController.verifyCard
+2021-12-27 20:18:25,631 DEBUG info.behzadian.web.rest.CardController [http-nio-9090-exec-7] Command: CardVerificationCommand(cardNumber=123456)
+2021-12-27 20:18:25,633 DEBUG info.behzadian.adapter.inbound.rest.card.VerifyCardServiceImpl [http-nio-9090-exec-7] VerifyCardService.verifyCard
+2021-12-27 20:18:25,634 DEBUG info.behzadian.adapter.inbound.rest.card.VerifyCardServiceImpl [http-nio-9090-exec-7] Command: CardVerificationCommand(cardNumber=123456)
+2021-12-27 20:18:25,634 DEBUG info.behzadian.adapter.inbound.rest.card.VerifyCardServiceImpl [http-nio-9090-exec-7] check if card exists
+2021-12-27 20:18:25,642 DEBUG info.behzadian.adapter.inbound.rest.card.VerifyCardServiceImpl [http-nio-9090-exec-7] Card: Card(balance=1000.000000000, cardNumber=123456, cardPin=1234, fingerPrint=, authMethod=PIN)
+2021-12-27 20:18:25,646 DEBUG info.behzadian.web.rest.CardController [http-nio-9090-exec-7] Output: CardVerificationResponse(cardNumber=123456, authMethod=PIN)
+2021-12-27 20:21:38,070 INFO org.springdoc.api.AbstractOpenApiResource [http-nio-9090-exec-10] Init duration for springdoc-openapi is: 493 ms
+2021-12-27 20:22:22,039 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-12-27 20:27:22,044 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-12-27 20:32:22,046 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-12-27 20:37:22,056 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-12-27 20:42:22,068 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-12-27 20:47:22,086 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration

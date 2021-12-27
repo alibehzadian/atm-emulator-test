@@ -23,7 +23,7 @@ import org.springframework.web.bind.annotation.*;
 import javax.servlet.http.HttpSession;
 
 @RestController
-@RequestMapping("/v1/atm")
+@RequestMapping("/v1/atm-service")
 @RequiredArgsConstructor
 @Slf4j
 public class AtmController {
