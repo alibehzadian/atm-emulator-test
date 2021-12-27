@@ -1,0 +1,75 @@
+version: '3.4'
+
+services:
+  bank-service-api:
+    image: bank-service-api
+    container_name: "bank-service-api"
+    build:
+      context: ./bank-service
+    ports:
+      - "8080:8080"
+    restart: always
+    environment:
+      - eureka.client.serviceUrl.defaultZone=http://discovery-service:8761/eureka/
+    depends_on:
+      - mysqldb
+      - discovery-service
+    networks:
+      - atm-emu-net
+  
+  atm-service-api:
+    image: atm-service-api
+    container_name: "atm-service-api"
+    build:
+      context: ./atm-service
+    ports:
+      - "9090:9090"
+    restart: always
+    environment:
+      - eureka.client.serviceUrl.defaultZone=http://discovery-service:8761/eureka/
+    depends_on:
+      - mysqldb
+      - discovery-service
+    networks:
+      - atm-emu-net
+  
+  mysqldb:
+    image: mysql:8.0.26
+    container_name: "mysqldb"
+    restart: always
+    ports:
+      - "3307:3306"
+    environment:
+      - MYSQL_DATABASE=bank_service_db
+      - MYSQL_ROOT_PASSWORD=PassW0rd
+    networks:
+      - atm-emu-net
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - "7070:7070"
+    depends_on:
+      - mysqldb
+    networks:
+      - atm-emu-net
+
+  discovery-service:
+    container_name: "discovery-service"
+    build:
+      context: ./service-discovery
+    ports:
+      - "8761:8761"
+    restart: always
+    depends_on:
+      - mysql-db
+    networks:
+      - atm-emu-net
+
+volumes:
+  elasticsearch:
+
+networks:
+  atm-emu-net:
+
